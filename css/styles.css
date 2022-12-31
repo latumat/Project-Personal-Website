@@ -1,0 +1,128 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.8rem;
+  /*50px/16px = 500% or 5em instead BUT USE rem!!!*/
+  font-family: 'Sacramento', cursive;
+  color: #E23E57;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #E23E57;
+  font-weight: normal;
+  /*Remove bold text*/
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #FAD4D4;
+    /*#A6E3E9*/
+  ;
+  position: relative;
+  padding: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #F67280;
+  padding: 50px 0 20px;
+}
+
+.container {
+  background-color: grey;
+  width: 300px;
+  height: 300px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #d9d9d9;
+  border-width: 5px;
+  width: 3%;
+  margin: 100px auto 100px auto;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  right: 500px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 500px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.hobby {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.competence {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pfp {
+  margin-top: 60px;
+}
+
+.introduction {
+  width: 30%;
+  margin: auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+.email, .linkedin, .github, .instagram {
+  width: 50px;
+  height: 50px;
+}
+
